@@ -7,7 +7,7 @@ $error  = '';
 $query  = trim($_GET['q'] ?? '');
 $year   = trim($_GET['year'] ?? '');
 
-define('OMDB_API_KEY', 'YOUR_OMDB_API_KEY');
+define('OMDB_API_KEY', 'c229a00e');
 
 if ($query !== '') {
     $params = http_build_query([
