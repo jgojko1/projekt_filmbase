@@ -17,7 +17,7 @@ if ($query !== '') {
         'plot'   => 'full',
         'r'      => 'json',
     ]);
-
+    //https://www.omdbapi.com/?t=Inception&apikey=c229a00e
     $url = 'https://www.omdbapi.com/?' . $params;
 
     $ch = curl_init();
